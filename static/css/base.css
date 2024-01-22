@@ -1,41 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
-
 :root {
     /** Fonts */
     --title: 'EB Garamond', serif;
     --main-font: 'Roboto', serif;
-
     /* Colours */
     --background: #3f006a0f;
-    --blue: #0d6efd;
+    --blue: #0D6EFD;
     --black: #000;
-    --off-white: #f6f6f6;
+    --off-white: #F6F6F6;
     --white: #fff;
-    --orange: #ffbf50;
-
+    --orange: #FFBF50;
     /* Utils */
     --smal-box-shadow: 1px -1px 7px 0 #00000061;
     --border: 1px solid #00000030;
 }
-
 *html, body {
     height: 100%;
 }
-
 body {
     display: flex;
     flex-direction: column;
     font-family: var(--main-font);
 }
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--title);
 }
-
 main {
     flex: 1 0 auto;
 }
-
 /* Footer */
 footer {
     flex-shrink: 0;
@@ -46,158 +38,125 @@ footer {
     align-items: center;
     border-top: var(--border);
 }
-
 .social-icon {
     height: 2rem;
     margin: 1rem;
 }
-
 /* Header */
 .navbar {
     background-color: #00ABE4;
     box-shadow: var(--smal-box-shadow);
 }
-
 a.nav-link {
     color: var(--black);
 }
-
 img.logo {
     /* width: 18.75rem; */
     height: 100px;
     width: auto;
 }
-
 /* ----- */
-
 .active {
     border-bottom: 2px solid var(--blue);
     font-weight: 500;
 }
-
 body {
     background-color: #E9F1FA;
     color: #333333;
     margin: 0;
     height: 100vh;
 }
-
 .container {
     display: flex;
     flex-direction: column;
-    /* height: calc(100vh - 60px); */
+    height: calc(100vh - 60px);
     justify-content: center;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
-
 header {
     display: flex;
     justify-content: space-between;
     background-color: #00ABE4;
     color: white;
 }
-
 header a {
     color: white;
 }
-
 a {
     text-decoration: none;
 }
-
 .left img {
     display: none;
 }
-
 .right {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .btn {
-    background-color: var(--blue); /* Primary button color */
-    color: var(--white); /* Text color */
-    margin: 10px 5px 0; /* Top margin added, right and left margins as before, no bottom margin */
-    padding: 10px 15px; /* Button padding */
-    border-radius: 5px; /* Rounded corners */
-    border: none; /* No border */
-    cursor: pointer; /* Cursor pointer */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
-    font-weight: 500; /* Font weight */
-    text-transform: uppercase; /* Uppercase text */
-    font-size: 0.875rem; /* Font size */
-    box-shadow: var(--smal-box-shadow); /* Box shadow from your variables */
+    background-color: #E9F1FA;
+    color: #00ABE4;
+    margin: 0;
+    padding: 5px;
+    border-radius: 5px;
 }
-
-.btn:hover, .btn:focus {
-    background-color: var(--orange); /* Color when hovered or focused */
-    color: var(--black); /* Text color when hovered or focused */
-    text-decoration: none; /* Remove underline from links */
+.btn:hover {
+    background-color: #4C4D4F;
 }
-
-.btn:active {
-    transform: translateY(1px); /* Slight push effect when clicked */
-    box-shadow: none; /* Remove box shadow when clicked */
-}
-
 h2, p {
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}  
-
-
-
-
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.rainbow {
+    background: linear-gradient(90deg, #800000, #FF6600, #808000, #008000, #000080, #4B0082, #800080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.propic {
+    max-width:250px;
+    max-height: 250px;
+}
 @media screen and (min-width: 768px) {
     .container {
-        flex-direction: column;
+        flex-direction: row;
     }
-
     .left,
     .right {
         width: 50%;
         padding: 10px;
         justify-content: center;
     }
-
     h2.form-heading, p {
         display: block;
     }
-
     .right-content {
         align-items: flex-start; /* Adjust alignment */
     }
-
     .separator {
         border-left: 1px solid #00ABE4;
         height: 80%;
         margin: auto 0;
     }
-
     .left img {
         display: block;
         width: 100%;
     }
-
 }
-
 @media screen and (min-width:40em){
     .form {
         width: 50%;
     }
-
     .recipe-cont {
         flex-direction: row;
     }
-
     .img-container {
         flex-direction: row;
         width: 29%;
     }
 }
-
 @media screen and (min-width: 62.5em) {
     .main-title {
         width: 50%;
