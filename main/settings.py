@@ -73,6 +73,7 @@ CSRF_TRUSTED_ORIGINS = ["https://symphonycash-09686c002c89.herokuapp.com"]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "allauth.account.middleware.AccountMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
