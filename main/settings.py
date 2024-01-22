@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
 DEBUG = 'DEVELOPMENT' in os.environ
 
 
-ALLOWED_HOSTS = [os.environ.get("HOST"), 'localhost']
+ALLOWED_HOSTS = [os.environ.get("HOST"), 'localhost', 'symphonycash-09686c002c89.herokuapp.com']
 
 
 # Application definition
@@ -69,7 +69,7 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 
 CRISPY_TEMPLATE_PACK = "bootstrap5"
 
-CSRF_TRUSTED_ORIGINS = ["https://localhost:8000"]
+CSRF_TRUSTED_ORIGINS = ["https://symphonycash-09686c002c89.herokuapp.com"]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
