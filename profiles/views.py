@@ -8,7 +8,7 @@ from .models import UserProfile
 from .forms import ProfileForm
 from django.contrib.auth.models import User
 from django.urls import reverse
-
+from django.contrib import messages
 
 
 class Profiles(TemplateView):
@@ -32,6 +32,7 @@ class EditProfile(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = UserProfile
 
     def form_valid(self, form):
+        messages.success(self.request, 'Profile updated successfully!')
         self.success_url = reverse("profile", args=[str(self.kwargs["pk"])])
         return super().form_valid(form)
     
