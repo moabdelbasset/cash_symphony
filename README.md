@@ -143,7 +143,7 @@ And below is an image for a login page designed for those who already have accou
 ### Budget Page 
 - A user-friendly hub for effortless budgeting. Easily set and manage budgets, categorize expenses, and track spending trends. Gain valuable insights through charts and graphs, making informed decisions to align budget with set goals. Optimize financial well-being conveniently on this platform.
 
-![Budget Page](./static/images/readme/)
+![Budget Page](./static/images/readme/summary.png)
 
 Also in this section, a user gets to track their expenses with the ability to edit and delete certain input data. 
 
