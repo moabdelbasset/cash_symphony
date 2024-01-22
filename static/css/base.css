@@ -110,9 +110,7 @@ h2, p {
 }
 .rainbow {
     background: linear-gradient(90deg, #800000, #FF6600, #808000, #008000, #000080, #4B0082, #800080);
-    -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
     color: transparent;
 }
 .propic {
