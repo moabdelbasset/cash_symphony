@@ -1,6 +1,6 @@
-# [Cash Symphony](https://cash-symphony-0a6254cc8639.herokuapp.com/)
+# [Cash Symphony](https://symphonycash-09686c002c89.herokuapp.com/)
 
-The [Cash Symphony](https://cash-symphony-0a6254cc8639.herokuapp.com/) is a Budget App built under the theme Budget Busters: New Year, New Numbers for the January Hackathon Project. 
+The [Cash Symphony](https://symphonycash-09686c002c89.herokuapp.com/) is a Budget App built under the theme Budget Busters: New Year, New Numbers for the January Hackathon Project. 
 
 Embark on a journey towards financial empowerment with our cutting-edge budget app designed to revolutionize the way you manage your finances. Whether you're a seasoned budgeting pro or just starting on your financial wellness path, Cash Symphony is here to simplify the process and elevate your money management experience. This is through the app helping you initiate your budgeting journey, record your finances, set realistic and attainable goals and also help you with valuable insights into your spending habits. In a nutshell the app will get you an analysis into your financial data to help you identify areas for improvement, empowering you to make informed decisions about your money.
 
