@@ -5,7 +5,7 @@ The [Cash Symphony](https://cash-symphony-0a6254cc8639.herokuapp.com/) is a Budg
 Embark on a journey towards financial empowerment with our cutting-edge budget app designed to revolutionize the way you manage your finances. Whether you're a seasoned budgeting pro or just starting on your financial wellness path, Cash Symphony is here to simplify the process and elevate your money management experience. This is through the app helping you initiate your budgeting journey, record your finances, set realistic and attainable goals and also help you with valuable insights into your spending habits. In a nutshell the app will get you an analysis into your financial data to help you identify areas for improvement, empowering you to make informed decisions about your money.
 
 Responsive Image 
-(Deployed App Link](https://cash-symphony-0a6254cc8639.herokuapp.com/)
+(Deployed App Link](https://symphonycash-09686c002c89.herokuapp.com/)
 
 During our collaborative and brainstorming sessions, we recognized and valued the unique talents of each team member, aiming to select a project that would be captivating for everyone. This led us to collectively decide to build a front-end application, enabling each team member to actively engage in its development.
 
